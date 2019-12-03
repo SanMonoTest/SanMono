@@ -254,19 +254,19 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: NPCMoveX
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: NPCMoveY
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -591,7 +591,7 @@ BlendTree:
     m_DirectBlendParameter: NPCMoveX
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 2dc350640f568e64ca3edea6678c6d47, type: 2}
+    m_Motion: {fileID: 7400000, guid: 07fa4d710343b404ba9ece177c5dad8e, type: 2}
     m_Threshold: 0.31044987
     m_Position: {x: 0, y: 1}
     m_TimeScale: 1
@@ -599,7 +599,7 @@ BlendTree:
     m_DirectBlendParameter: NPCMoveX
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: da4214e260207de44aa7a20c0757b1d4, type: 2}
+    m_Motion: {fileID: 7400000, guid: abfabdd2dc4ff63418ba7e4659768aa4, type: 2}
     m_Threshold: 0.44835988
     m_Position: {x: -1, y: 1}
     m_TimeScale: 1
@@ -607,7 +607,7 @@ BlendTree:
     m_DirectBlendParameter: NPCMoveX
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: a8cc83fad7b88f44c89f49fd3e8dd9c8, type: 2}
+    m_Motion: {fileID: 7400000, guid: 47e3259209ce3a74887dbb4e904804b4, type: 2}
     m_Threshold: 0.58627
     m_Position: {x: -1, y: 0}
     m_TimeScale: 1
@@ -615,7 +615,7 @@ BlendTree:
     m_DirectBlendParameter: NPCMoveX
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: c92375d1d1b646b48afc73f1cbff890f, type: 2}
+    m_Motion: {fileID: 7400000, guid: c66f0fc6be5395441ac05ee7b539f221, type: 2}
     m_Threshold: 0.72418
     m_Position: {x: -1, y: -1}
     m_TimeScale: 1
@@ -623,7 +623,7 @@ BlendTree:
     m_DirectBlendParameter: NPCMoveX
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 6aca7e3866c58704a9e8822b03784320, type: 2}
+    m_Motion: {fileID: 7400000, guid: 23dd41a6905cfc34787c838090182b07, type: 2}
     m_Threshold: 0.86209
     m_Position: {x: 0, y: -1}
     m_TimeScale: 1
