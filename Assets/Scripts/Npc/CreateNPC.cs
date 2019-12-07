@@ -14,6 +14,7 @@ public class CreateNPC : MonoBehaviour
             CatchType("head", npc_change);
             CatchType("body", npc_change);
             //CatchType("hat", npc_change);
+
         }
     }
 
@@ -33,19 +34,27 @@ public class CreateNPC : MonoBehaviour
                 break;
         }
         Show(obj);
+        StartCoroutine(Start(obj));
     }
 
     private void Show(GameObject obj)
     {
         Style[] styles = obj.GetComponentsInChildren<Style>();
-        int style = Random.Range(0, 2);
+        int style = Random.Range(0, styles.Length);
         for (int i = 0; i < styles.Length; i++)
         {
             if (i == style)
             {
                 continue;
             }
-            styles[i].gameObject.SetActive(false);
+            Destroy(styles[i].gameObject);
         }
+    }
+
+    private IEnumerator Start(GameObject obj)
+    {
+        obj.SetActive(false);
+        yield return new WaitForSeconds(0.01f);
+        obj.SetActive(true);
     }
 }
