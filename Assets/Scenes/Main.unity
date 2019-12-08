@@ -12906,7 +12906,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1438441273
 Transform:
   m_ObjectHideFlags: 0
@@ -18454,7 +18454,7 @@ PrefabInstance:
     - target: {fileID: 7810278076758868057, guid: dbea8ec9c2fa24749a9ad731592f85f1,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7810278076758868058, guid: dbea8ec9c2fa24749a9ad731592f85f1,
         type: 3}
@@ -18509,6 +18509,31 @@ PrefabInstance:
     - target: {fileID: 7810278076758868058, guid: dbea8ec9c2fa24749a9ad731592f85f1,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5184804255810139333, guid: dbea8ec9c2fa24749a9ad731592f85f1,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 856820878547671273, guid: dbea8ec9c2fa24749a9ad731592f85f1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279022153067137095, guid: dbea8ec9c2fa24749a9ad731592f85f1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097687545251764845, guid: dbea8ec9c2fa24749a9ad731592f85f1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2353163694909449157, guid: dbea8ec9c2fa24749a9ad731592f85f1,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
