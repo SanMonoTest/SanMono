@@ -13,7 +13,7 @@ public class CreateNPC : MonoBehaviour
             GameObject npc_change = Instantiate(npc, this.transform.position, Quaternion.identity);
             CatchType("head", npc_change);
             CatchType("body", npc_change);
-            //CatchType("hat", npc_change);
+            CatchType("hat", npc_change);
         }
     }
 

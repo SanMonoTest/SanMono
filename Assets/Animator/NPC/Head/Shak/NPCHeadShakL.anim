@@ -102,7 +102,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: HeadAnimation
+    path: Walk
   m_ScaleCurves: []
   m_FloatCurves: []
   m_PPtrCurves: []
@@ -114,7 +114,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 4176994431
+      path: 765711723
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -230,7 +230,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: HeadAnimation
+    path: Walk
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -321,7 +321,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: HeadAnimation
+    path: Walk
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -412,7 +412,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: HeadAnimation
+    path: Walk
     classID: 4
     script: {fileID: 0}
   m_EulerEditorCurves: []
