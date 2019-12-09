@@ -14,15 +14,13 @@ public class CreateNPC : MonoBehaviour
             CatchType("head", npc_change);
             CatchType("body", npc_change);
             //CatchType("hat", npc_change);
-
         }
     }
 
     private void CatchType(string type, GameObject npc_change)
     {
         GameObject obj;
-        switch (type)
-        {
+        switch (type) {
             case "head":
                 obj = npc_change.GetComponentInChildren<Head>().gameObject;
                 break;
@@ -37,22 +35,18 @@ public class CreateNPC : MonoBehaviour
         StartCoroutine(Start(obj));
     }
 
-    private void Show(GameObject obj)
-    {
+    private void Show(GameObject obj) {        
         Style[] styles = obj.GetComponentsInChildren<Style>();
         int style = Random.Range(0, styles.Length);
-        for (int i = 0; i < styles.Length; i++)
-        {
-            if (i == style)
-            {
+        for (int i = 0; i < styles.Length; i++) {
+            if (i == style) {
                 continue;
             }
             Destroy(styles[i].gameObject);
         }
     }
 
-    private IEnumerator Start(GameObject obj)
-    {
+    private IEnumerator Start(GameObject obj) {
         obj.SetActive(false);
         yield return new WaitForSeconds(0.01f);
         obj.SetActive(true);
